@@ -20,6 +20,10 @@ Instructions:
 * Note: Once the Bot Application zip file is downloaded, be sure to move it to the Visual Studio 2017 
   template directory
   
-...\Documents\Visual Studio 2017\Templates\ProjectTemplates\Visual C#\
+\...\Documents\Visual Studio 2017\Templates\ProjectTemplates\Visual C#\
+
+3) Open Visual Studio 2017, select File > New > Projects > Visual C# > Bot Application
 ```
+![botapppic0](https://cloud.githubusercontent.com/assets/25268970/23716194/4e597436-03fd-11e7-9117-0353362e6ed9.png)
+
 ![botapppic1](https://cloud.githubusercontent.com/assets/25268970/23715743/a670f2fe-03fb-11e7-983a-254a44fb971f.png)
