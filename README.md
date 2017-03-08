@@ -72,6 +72,7 @@ Name > Smart bot
 Bot handle > 'must be unique identifier e.g. Smart_bot_12345 or GSU_Smart_bot'
 Description > About your bot, its functionality, where your code was adapted from, etc...
 
-9) Select Create Microsoft App ID and password; Copy this information into Web.config in their designated place holders.
+9) Select Create Microsoft App ID and password; Copy this information into Web.config in their 
+  designated place holders.
 
 ```
