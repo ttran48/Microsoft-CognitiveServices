@@ -85,3 +85,15 @@ Description > About your bot, its functionality, where your code was adapted fro
 
 ![botapppic5](https://cloud.githubusercontent.com/assets/25268970/23722373/1bd7b75a-0413-11e7-8e47-27c55a57619b.png)
 
+```
+12) Go back to your Microsoft Visual Studio 2017, click on the tab that indicates your bot name. Click File in the 
+  upper left-hand corner. Then click, View in Browser. Or another quick option is Ctrl-Shift-W.
+  * Note: A new tab will open in your browser. You will need 2 pieces of information from this tab.
+    1) locathost: ####
+    2) https://your_bots_hostname/api/messages
+```
+![botapppic6](https://cloud.githubusercontent.com/assets/25268970/23722626/193617b6-0414-11e7-9623-080c61e23654.png)
+
+```
+13)
+```
