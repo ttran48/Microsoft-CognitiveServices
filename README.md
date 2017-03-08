@@ -19,6 +19,7 @@ Instructions:
 
 * Note: Once the Bot Application zip file is downloaded, be sure to move it to the Visual Studio 2017 
   template directory
+  
 ...\Documents\Visual Studio 2017\Templates\ProjectTemplates\Visual C#\
 ```
 ![botapppic1](https://cloud.githubusercontent.com/assets/25268970/23715743/a670f2fe-03fb-11e7-983a-254a44fb971f.png)
