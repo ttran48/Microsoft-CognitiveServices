@@ -16,7 +16,9 @@ https://docs.botframework.com/en-us/csharp/builder/sdkreference/gettingstarted.h
 Instructions:
 1) Install Visual Studio 2017 from www.visualstudio.com
 2) Download and Install Bot Application template from http://aka.ms/bf-bc-vstemplate
-* Note: Once the Bot Application zip file is downloaded, be sure to move it to the Visual Studio 2017 template directory
+
+* Note: Once the Bot Application zip file is downloaded, be sure to move it to the Visual Studio 2017 
+  template directory
 ...\Documents\Visual Studio 2017\Templates\ProjectTemplates\Visual C#\
 ```
 ![botapppic1](https://cloud.githubusercontent.com/assets/25268970/23715743/a670f2fe-03fb-11e7-983a-254a44fb971f.png)
