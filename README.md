@@ -1,4 +1,6 @@
 # Smart-Bot-Project
+## Introduction
+
 ## Resources
 Download the open source bot builder SDK
 ```markdown
