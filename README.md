@@ -23,7 +23,17 @@ Instructions:
 \...\Documents\Visual Studio 2017\Templates\ProjectTemplates\Visual C#\
 
 3) Open Visual Studio 2017, select File > New > Projects > Visual C# > Bot Application
+
+* Note: Don't worry if you see only 1 Bot Application template
+
+4) Name your first Bot and select OK
 ```
 ![botapppic0](https://cloud.githubusercontent.com/assets/25268970/23716194/4e597436-03fd-11e7-9117-0353362e6ed9.png)
 
+```markdown
+5) A new window will appear, look to the right hand side and click on the Controllers arrow to expand the 
+  folder. Double click on MessageContrller.cs to open it in a new tab. 
+
+6) Next go to Web.config and double click it to open it in another new tab.
+```
 ![botapppic1](https://cloud.githubusercontent.com/assets/25268970/23715743/a670f2fe-03fb-11e7-983a-254a44fb971f.png)
