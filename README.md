@@ -73,6 +73,15 @@ Bot handle > 'must be unique identifier e.g. Smart_bot_12345 or GSU_Smart_bot'
 Description > About your bot, its functionality, where your code was adapted from, etc...
 
 9) Select Create Microsoft App ID and password; Copy this information into Web.config in their 
-  designated place holders.
+  designated place holders. Then save the document.
+  
+10) Download the Bot Framework Channel Emulator from https://docs.botframework.com/en-us/tools/bot-framework-emulator/
 
+11) Download ngrok from https://ngrok.com/download
+* Note: this download will allow you to connect your bot pass your firewall to the internet. After dowloading, unzip 
+  and click the file. A command prompt will open, type in ngrok. exe http 80. Another note, make sure that you are 
+  in the same directory where the ngrok file is located.
 ```
+
+![botapppic5](https://cloud.githubusercontent.com/assets/25268970/23722373/1bd7b75a-0413-11e7-8e47-27c55a57619b.png)
+
