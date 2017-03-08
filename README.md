@@ -19,5 +19,5 @@ Instructions:
 * Note: Once the Bot Application zip file is downloaded, be sure to move it to the Visual Studio 2017 template directory
 ...\Documents\Visual Studio 2017\Templates\ProjectTemplates\Visual C#\
 
-![Image of Yaktocat](http://github.com/ttran48/Smart-Bot-Project/botapppic1.png)
+![botapppic1](https://cloud.githubusercontent.com/assets/25268970/23715743/a670f2fe-03fb-11e7-983a-254a44fb971f.png)
 ```
