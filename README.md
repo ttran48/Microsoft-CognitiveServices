@@ -37,3 +37,24 @@ Instructions:
 6) Next, locate Web.config and double click it to open it in another new tab.
 ```
 ![botapppic1](https://cloud.githubusercontent.com/assets/25268970/23715743/a670f2fe-03fb-11e7-983a-254a44fb971f.png)
+```markdown
+MessagesController.cs
+```
+![botapppic2](https://cloud.githubusercontent.com/assets/25268970/23719750/968403b8-040a-11e7-99e0-5557f629d6ae.png)
+
+```markdown
+The MessagesController.cs is the core functionality of the Bot Template. In this case the code takes the 
+message text for the user, then creates a reply message using the CreateReplyMessage function. You can 
+modify this template to add more functions.
+```
+```markdown
+Web.config
+```
+![botapppic3](https://cloud.githubusercontent.com/assets/25268970/23720193/0b416cbc-040c-11e7-9e9a-4d9d5d0d4bb6.png)
+
+```markdown
+* Note the highlighted.
+The bot has to be registered with Bot Connector
+The AppId and AppPassword from the Bot Framework registration page have to be recorded in the project's web.config
+The project needs to be published to the web
+```
