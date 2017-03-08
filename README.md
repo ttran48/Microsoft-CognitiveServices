@@ -31,8 +31,8 @@ Instructions:
 ![botapppic0](https://cloud.githubusercontent.com/assets/25268970/23716194/4e597436-03fd-11e7-9117-0353362e6ed9.png)
 
 ```markdown
-5) A new window will appear, look to the right hand side and locate the Controllers folder. Click the arrow next to the folder 
-  to expand the folder. Double click on MessageContrller.cs to open it in a new tab. 
+5) A new window will appear, look to the right hand side and locate the Controllers folder. Click the arrow 
+  next to the folder to expand the folder. Double click on MessageContrller.cs to open it in a new tab. 
 
 6) Next, locate Web.config and double click it to open it in another new tab.
 ```
