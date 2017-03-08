@@ -53,8 +53,25 @@ Web.config
 ![botapppic3](https://cloud.githubusercontent.com/assets/25268970/23720193/0b416cbc-040c-11e7-9e9a-4d9d5d0d4bb6.png)
 
 ```markdown
-* Note the highlighted.
-The bot has to be registered with Bot Connector
-The AppId and AppPassword from the Bot Framework registration page have to be recorded in the project's web.config
-The project needs to be published to the web
+* Note the highlighted. There are 3 values that need to be filled in 
+  (botID, MicrosoftAppID, and MicrosoftAppPassword)
+  
+  The botID reflects what I called my project; Smart bot
+  MicrosoftAppID and MicrosoftAppPassword must be created while you are registering your bot.
+  
+  7) Register your bot; locate this tab at the top of the window.
+```
+
+![botapppic4](https://cloud.githubusercontent.com/assets/25268970/23720923/3512bee0-040e-11e7-863a-b7c7f50f958e.png)
+
+```markdown
+8) Fill it out the registration form
+I filled the following sections with information: Name, Bot handle, and Description.
+
+Name > Smart bot
+Bot handle > 'must be unique identifier e.g. Smart_bot_12345 or GSU_Smart_bot'
+Description > About your bot, its functionality, where your code was adapted from, etc...
+
+9) Select Create Microsoft App ID and password; Copy this information into Web.config in their designated place holders.
+
 ```
