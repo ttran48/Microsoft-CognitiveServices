@@ -75,7 +75,8 @@ Description > About your bot, its functionality, where your code was adapted fro
 9) Select Create Microsoft App ID and password; Copy this information into Web.config in their 
   designated place holders. Then save the document.
   
-10) Download the Bot Framework Channel Emulator from https://docs.botframework.com/en-us/tools/bot-framework-emulator/
+10) Download the Bot Framework Channel Emulator from 
+  https://docs.botframework.com/en-us/tools/bot-framework-emulator/
 
 11) Download ngrok from https://ngrok.com/download
 * Note: this download will allow you to connect your bot pass your firewall to the internet. 
