@@ -78,16 +78,19 @@ Description > About your bot, its functionality, where your code was adapted fro
 10) Download the Bot Framework Channel Emulator from https://docs.botframework.com/en-us/tools/bot-framework-emulator/
 
 11) Download ngrok from https://ngrok.com/download
-* Note: this download will allow you to connect your bot pass your firewall to the internet. After dowloading, unzip 
-  and click the file. A command prompt will open, type in ngrok. exe http 80. Another note, make sure that you are 
-  in the same directory where the ngrok file is located.
+* Note: this download will allow you to connect your bot pass your firewall to the internet. 
+  After dowloading, unzip and click the file. A command prompt will open, 
+  type in ngrok. exe http 80. Another note, make sure that you are in the same directory where 
+  the ngrok file is located.
 ```
 
 ![botapppic5](https://cloud.githubusercontent.com/assets/25268970/23722373/1bd7b75a-0413-11e7-8e47-27c55a57619b.png)
 
 ```
-12) Go back to your Microsoft Visual Studio 2017, click on the tab that indicates your bot name. Click File in the 
-  upper left-hand corner. Then click, View in Browser. Or another quick option is Ctrl-Shift-W.
+12) Go back to your Microsoft Visual Studio 2017, click on the tab that indicates your bot name. 
+  Click File in the upper left-hand corner. Then click, View in Browser. Or another quick option is 
+  Ctrl-Shift-W.
+  
   * Note: A new tab will open in your browser. You will need 2 pieces of information from this tab.
     1) locathost: ####
     2) https://your_bots_hostname/api/messages
@@ -95,14 +98,16 @@ Description > About your bot, its functionality, where your code was adapted fro
 ![botapppic6](https://cloud.githubusercontent.com/assets/25268970/23722626/193617b6-0414-11e7-9623-080c61e23654.png)
 
 ```
-13) Now open your Bot Framework-Emulator. Take the password that your generated for you application in addition 
-  to the 2 pieces of information that was retrieved from Step 12 (local address and MicrosoftAppID); and apply 
-  this information to the designated fields in the emulator. Select Connect.
+13) Now open your Bot Framework-Emulator. Take the password that your generated for you application 
+  in addition to the 2 pieces of information that was retrieved from Step 12 (local address and 
+  MicrosoftAppID); and apply this information to the designated fields in the emulator. 
+  Select Connect.
 ```
 ![botapppic7](https://cloud.githubusercontent.com/assets/25268970/23731343/fb16d10e-043a-11e7-8542-43eee5c9b511.png)
 
 ```
-14) Finally, test if your application works. Type Hello or any number of characters. The return should be the number 
-  of elements that has been executed.
+14) Finally, test if your application works. Type Hello or any number of characters. The return should 
+  be the number of elements that has been executed.
+  
   * Note: The count includes spaces.
 
