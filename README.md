@@ -95,11 +95,14 @@ Description > About your bot, its functionality, where your code was adapted fro
 ![botapppic6](https://cloud.githubusercontent.com/assets/25268970/23722626/193617b6-0414-11e7-9623-080c61e23654.png)
 
 ```
-13) Now open your Bot Framework-Emulator. Take the password that your generated for you application in addition to the 2 pieces of information that was retrieved from Step 12 (local address and MicrosoftAppID); and apply this information to the designated fields in the emulator. Select Connect.
+13) Now open your Bot Framework-Emulator. Take the password that your generated for you application in addition 
+  to the 2 pieces of information that was retrieved from Step 12 (local address and MicrosoftAppID); and apply 
+  this information to the designated fields in the emulator. Select Connect.
 ```
 ![botapppic7](https://cloud.githubusercontent.com/assets/25268970/23731343/fb16d10e-043a-11e7-8542-43eee5c9b511.png)
 
 ```
-14) Finally, test if your application works. Type Hello or any number of characters. The return should be the number of elements that     has been executed.
+14) Finally, test if your application works. Type Hello or any number of characters. The return should be the number 
+  of elements that has been executed.
   * Note: The count includes spaces.
 
