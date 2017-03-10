@@ -70,7 +70,7 @@ install the package.
   
   8) Copy the following code into your Utility.cs:
  ```markdown
- using Microsoft.ProjectOxford.Face;
+using Microsoft.ProjectOxford.Face;
 using System;
 using System.Configuration;
 using System.IO;
@@ -114,3 +114,27 @@ namespace Smart_bot
     }
 }
  ```
+ 9) Save your Utility class.
+ 10) Double click your MessagesController class in the Controllers folder in the Solution Explorer on the right-hand side. Replace the code below with the following new code.
+```markdown
+if (activity.Type == ActivityTypes.Message)
+            {
+                ConnectorClient connector = new ConnectorClient(new Uri(activity.ServiceUrl));
+                // calculate something for us to return
+                int length = (activity.Text ?? string.Empty).Length;
+
+                // return our reply to the user
+                Activity reply = activity.CreateReply($"You sent {activity.Text} which was {length} characters");
+                await connector.Conversations.ReplyToActivityAsync(reply);
+            }
+```
+New Code
+```markdown
+if (activity.Type == ActivityTypes.Message && activity.Attachments.Count > 0)
+            {
+                ConnectorClient connector = new ConnectorClient(new Uri(activity.ServiceUrl));
+                string imageUri = activity.Attachments[0].ContentUrl;
+                Activity reply = activity.CreateReply(await Utility.UploadAndDetectFaces(imageUri));
+                await connector.Conversations.ReplyToActivityAsync(reply);
+            }
+```
