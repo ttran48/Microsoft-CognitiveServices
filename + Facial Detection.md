@@ -115,6 +115,7 @@ namespace Smart_bot
 }
  ```
  9) Save your Utility class.
+ 
  10) Double click your MessagesController class in the Controllers folder in the Solution Explorer on the right-hand side. Replace the code below with the following new code.
 ```markdown
 if (activity.Type == ActivityTypes.Message)
@@ -138,3 +139,9 @@ if (activity.Type == ActivityTypes.Message && activity.Attachments.Count > 0)
                 await connector.Conversations.ReplyToActivityAsync(reply);
             }
 ```
+11. Save and press F5. This will initiate the debugging process and open a new tab in your browser. Like before, in the Bot Application Template Walk Through; you will need to acquire 2 pieces of information.
+  1) The local host address
+  2) /api/messages
+
+12) Open your Bot Framework Channel Emulator, input the 2 pieces of information and connect.
+13) Select the icon that looks like an image and import an image into your bot application.
