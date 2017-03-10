@@ -66,4 +66,51 @@ install the package.
 ```
 ![botapppic10](https://cloud.githubusercontent.com/assets/25268970/23783410/629b1c56-0529-11e7-9dde-a7729c318419.png)
 
-  7)
+  7) Create a Utility.cs. You can create this class by right-clicking your project name in the Solution Explorer on the right-hand side; navigate to Add in the drop down menu and then navigate to Class in the following dropdown menu.
+  
+  8) Copy the following code into your Utility.cs:
+ ```markdown
+ using Microsoft.ProjectOxford.Face;
+using System;
+using System.Configuration;
+using System.IO;
+using System.Linq;
+using System.Net;
+using System.Threading.Tasks;
+
+namespace Smart_bot
+{
+    public class Utility
+    {
+        private static readonly IFaceServiceClient faceServiceClient = new FaceServiceClient(ConfigurationManager.AppSettings["FaceAPIKey"]);
+        public static async Task<string> UploadAndDetectFaces(string imageFilePath)
+        {
+            try
+            {
+                var requiredFaceAttributes = new FaceAttributeType[] {
+                    FaceAttributeType.Age,
+                    FaceAttributeType.Gender,
+                    FaceAttributeType.Smile
+                };
+                using (WebClient webClient = new WebClient())
+                {
+                    using (Stream imageFileStream = webClient.OpenRead(imageFilePath))
+                    {
+                        var faces = await faceServiceClient.DetectAsync(imageFileStream, returnFaceLandmarks: true, returnFaceAttributes: requiredFaceAttributes);
+                        var faceAttributes = faces.Select(face => face.FaceAttributes);
+                        string result = string.Empty;
+                        faceAttributes.ToList().ForEach(f =>
+                            result += $"Age: {f.Age.ToString()} Years  Gender: {f.Gender}  Smile: {f.Smile.ToString()}{Environment.NewLine}{Environment.NewLine}"
+                        );
+                        return result;
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                return string.Empty;
+            }
+        }
+    }
+}
+ ```
