@@ -50,11 +50,13 @@ Web.config
 ![botapppic3](https://cloud.githubusercontent.com/assets/25268970/23720193/0b416cbc-040c-11e7-9e9a-4d9d5d0d4bb6.png)
 
 ```markdown
-* Note the highlighted. There are 3 values that need to be filled in 
+* Note the highlighted. There are 3 values that can be filled in 
   (botID, MicrosoftAppID, and MicrosoftAppPassword)
   
   The botID reflects what I called my project; Smart bot
   MicrosoftAppID and MicrosoftAppPassword must be created while you are registering your bot.
+  
+  However, if you are only running your bot locally then this information can be left blank.
   
   7) Register your bot; locate this tab at the top of the window.
 ```
