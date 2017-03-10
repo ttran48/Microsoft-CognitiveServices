@@ -29,3 +29,41 @@ Before you begin, you can play a demo of the Face API here:
 https://www.microsoft.com/cognitive-services/en-us/face-api
 
 ## Getting Started
+```markdown
+* Note: Please first build out the Bot Application Template. You can find a walk through of this build in my Smart-Bot-Project repository titled Bot template.md. 
+```
+1) To begin, you will first need the Cognitive Service Face API (CSF API)
+```markdown 
+  This API will allow you to show the face attributes such as Age, Gender and Smile from an image that is 
+  loaded into your bot  application.
+
+  To get the CSF API, go to the following link:
+  https://www.microsoft.com/cognitive-services/en-us/face-api
+  
+  Create an account; under Free Trial you can find the Face-Preview API and register for it.
+  ```  
+  2) You will then be taken back to your original portal and you will see the product that you registered for.
+  ```markdown
+* Note: You do not need to Buy On Azure. Just copy your first key and you will paste this key in the 
+  Web.config of your template.
+  ```
+  3) Open the Web.config file on the right-hand side in your Solution Explorer by double clicking. When the Web.config tab appears, locate the section that has the following information: 
+```markdown      
+    <add key="BotId" value="" />
+    <add key="MicrosoftAppId" value="" />
+    <add key="MicrosoftAppPassword" value="" />
+```  
+  4) Add the following line at the end and paste your key where it says 'paste key here':
+```markdown    
+    <add key ="FaceAPIKey" value="paste key here">
+```    
+  5) Save and then navigate to the tool bar at the top of Microsoft Visual Studio and select Project > Manage NuGet Packages.
+  
+  6) A new tab will appear labeled NuGet: Project Name. Select Browse and type in Microsoft.ProjectOxford.Face in the Search Field. Then
+install the package.
+```markdown
+* Note: This package will automatically be added to your packages.config
+```
+![botapppic10](https://cloud.githubusercontent.com/assets/25268970/23783410/629b1c56-0529-11e7-9dde-a7729c318419.png)
+
+  7)
